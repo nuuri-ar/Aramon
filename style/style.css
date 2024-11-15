@@ -1,0 +1,341 @@
+body {
+	font: 12px Arial, Tahoma, Verdana, sans-serif;
+}
+
+/* DIV CONTENEDOR GENERAL */
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 250px;
+	width: 960px;
+	background: #FFE680;
+	background-image: url(../images/Fondo.jpg);
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+    background-color: pink; 
+    overflow: auto;
+}
+
+.Titulo {
+	display: flex;
+	justify-content: center;
+	font-family: 'Courier New', Courier, monospace;
+	padding-left: 70px;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 50px;
+}
+
+.aramon {
+	width: 80px;
+	height: 80px;
+	border-radius: 30px;
+}
+
+#content {
+    /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
+	width: 790px;
+	float: left;
+    background-color: lightpink;
+    padding: 10px;   
+}
+
+li.ListaInicio {
+	list-style-type: none;
+	background-image: url(../images/Copo-removebg-preview.png);
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 15px;
+	
+}
+
+p, ul {
+	text-align: justify;
+}
+
+p {
+	font-size: 13px;
+}
+
+.Mapa{
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+
+.ListaInformacion {
+	list-style-type: none; /* Elimina los puntos de la lista */
+	display: flex; /* Utiliza un diseño flexible para alinear elementos en línea */
+}
+
+.ListaInformacion img {
+	width: 220px;
+	height: 220px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.ListaInformacion a {
+	padding-left: 40%;
+}
+
+strong:hover {
+	background-color: white;
+	font-size: 16px;
+}
+
+#sideRight {
+	float: left;
+	width: 150px;	
+	background: pink;
+}
+
+#sideRight h3 {
+	text-align: center;
+	padding: 110px 0 30px 0;
+	color: red;
+}
+
+.ListaSidebar {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+#FotoSidebar {
+	padding-left: 15px;
+	height: 90px;
+	width: 115px;
+	border-radius: 0%;
+}
+
+.rating {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: center;
+	padding-top: 200%;
+}
+.star-input {
+	display: none;
+}
+.star-label {
+	display: inline-block;
+	margin: 0 4px;
+	cursor: pointer;
+}
+.star-label:before {
+	content: '\2605'; /* Estrella vacía */
+	font-size: 1.9em;
+	color: #e8e5e5;
+	display: block;
+}
+.star-input:checked + .star-label:before,
+.star-input:checked ~ .star-label:before {
+	color: #f2a48e; /* Color de estrella seleccionada */
+}
+
+em {
+	text-decoration: underline;
+}
+
+ol {
+	display: flex;
+}
+
+ol li {
+	padding: 0 20px 0 20px;
+}
+
+dt {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+dd {
+	font-size: 15px;
+}
+
+#ListaAlojamiento li {
+	list-style-type: none;
+	background-image: url(../images/hotel.png);
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	transition: transform 0.3s, filter 0.3s;
+	padding: 10px 10px 0 10px;
+}
+
+img:hover {
+	transform: scale(1.1);
+	filter: brightness(70%);
+}
+
+.TablaTarifas {
+	text-align: center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size:large;
+}
+
+.TablaTarifas2 {
+	text-align: center;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+	font-size: large;
+}
+
+.TablaTarifas2 td {
+	padding: 6px 23px;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+caption {
+	font-size: 20px;
+	padding: 11px 0 11px 0;
+	background-color: #b34560;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#Precio {
+	text-decoration: underline;
+}
+
+#Precio:hover {
+	font-size: 20px;
+	color: #b662e4;
+}
+
+hr {
+	margin-left: 65px;
+	border-color: black;
+}
+
+#CabezeraTarifa {
+	background-color: black;
+	color: white;
+	padding: 5px 0 5px 0;
+}
+
+#Tabla1 {
+	background-color: #bd8cda;
+}
+
+#Tabla2 {	
+	background-color: #e0b7f2;
+}
+
+#Tabla3 {
+	background-color: #1ab37b;
+}
+
+#Tabla4 {
+	background-color: #597ed6;
+}
+
+#Tabla5 {
+	background-color: #e6d782;
+}
+
+#Tabla6 {
+	background-color: #f5b6e7;
+}
+
+
+.TablaTarifas tr td{
+	padding: 15px;
+}
+
+input:focus-within {
+	background-color: bisque;
+}
+
+input {
+	margin: 1%;
+	border-radius: 15px;
+	
+}
+
+fieldset {
+	border-radius: 10px;
+	border: 1px solid, black;
+	box-shadow: 0 0 10px rgb(212, 152, 235); /* Aplica una sombra alrededor del fieldset*/
+	margin-bottom: 20px;
+}
+
+legend {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+  
+.button1 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid salmon;
+	border-radius: 18px;
+}
+  
+.button1:hover {
+	background-color: #e1238f;
+	color: white;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    float: left;
+	clear: left;
+	height: 60px;
+	background: rgb(176, 46, 113);
+	width: 960px;
+}
+
+ion-icon {
+	color: coral;
+	width: 40px;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ion-icon:hover{
+	font-size: 35px;
+	color: white;
+}

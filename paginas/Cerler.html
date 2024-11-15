@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aramon - Escuela de Esquí</title>
+	<link rel="stylesheet" href="../style/style.css" />
+	<link rel="stylesheet" href="../style/styles1.css">
+	<link rel="Shortcut icon" href="../images/esqui.png" type="image/x-icon">
+	<!-- Script para los menús -->
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+		</div>
+		<!-- MENU-->
+		<nav id='menu'>
+			<input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+			<ul>
+				<li><a href='../index.html'>Inicio</a></li>
+				<li><a class='dropdown-arrow' href='#'>Información</a>
+					<ul class='sub-menus'>
+						<li><a href='Formigal.html'>Formigal</a></li>
+						<li><a href='Cerler.html'>Cerler</a></li>
+						<li><a href='Javalambre.html'>Javalambre</a></li>
+						<li><a href='Veldelinares.html'>Valdelinares</a></li>
+					</ul>
+				</li>
+				<li><a class='dropdown-arrow' href='#'>Galeria</a>
+					<ul class='sub-menus'>
+						<li><a href='Fotos.html'>Fotos</a></li>
+					</ul>
+				</li>
+				<li><a href='Tarifas.html'>Tarifas</a></li>
+				<li><a class='dropdown-arrow' href="#">Formularios</a>
+					<ul class='sub-menus'>
+						<li><a href='Contacto.html'>Contacto</a></li>
+						<li><a href='Reservas.html'>Reservas</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- Div central -->
+		<div id="middle">
+			<!--Panel izquierda -->
+			<div id="content">
+				<h1 class="Titulo">Cerler</h1>
+				<hr>
+				<ul class="ListaInformacion">
+					<li>
+						<img src="../images/CerlerInfo.jpg">
+						<a href="#Salto1">Informacion</a>
+					</li>
+					<li>
+						<img src="../images/CerlerAlojamiento.jpg">
+						<a href="#Salto2">Alojamiento</a>
+					</li>
+					<li>
+						<img src="../images/CerlerActividades.jpg">
+						<a href="#Salto3">Actividades</a>
+					</li>
+				</ul>
+
+
+				<div class="Mapa">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.368657908258!2d0.5387477702300721!3d42.592123047352885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a87edefdef0571%3A0xa018c67a2b57630!2s22449%20Cerler%2C%20Huesca!5e0!3m2!1ses!2ses!4v1699602759836!5m2!1ses!2ses"
+						width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<h2 id="Salto1">Informacion</h2>
+				<p>Si quieres disfrutar de las bajadas más largas del Pirineo, Cerler es tu estación.</p>
+
+				<h3>Sector Cerler</h3>
+				<p>Cuenta con el mayor desnivel esquiable del Pirineo (1.130 metros) y con 68 pistas aptas
+					para distintos niveles repartidas a lo largo de dos valles (Cerler y Ampriu) en los que
+					encontrarás todos los servicios necesarios.
+				</p>
+				<p>Si vas con niños, éstos lo pasarán en grande en las dos skytiáreas y en el jardín de nieve.</p>
+				<p>Y si es la primera vez que visitas Cerler, los embajadores te mostrarán encantados los mejores
+					rincones de la estación.</p>
+				<br>
+				<h2 id="Salto2">Alojamiento</h2>
+				<ol>
+					<li>
+						Hotel San Antón
+						<ul id="ListaAlojamiento">
+							<li>Parking</li>
+							<li>Guardaesquís</li>
+							<li>Restaurante</li>
+							<li>Admite mascotas</li>
+						</ul>
+					</li>
+					<li>
+						Hotel Daimó
+						<ul id="ListaAlojamiento">
+							<li>Parking</li>
+							<li>Ascensor</li>
+							<li>Guardaesquís</li>
+							<li>Televisor</li>
+						</ul>
+					</li>
+					<li>
+						Hotel Selba d'Ansils
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>Guardaesquís</li>
+						</ul>
+					</li>
+				</ol>
+				<ol start="4">
+					<li>
+						Hotel Ciria
+						<ul id="ListaAlojamiento">
+							<li>Restaurante</li>
+							<li>Ascensor</li>
+							<li>Guardaesquís</li>
+							<li>Televisor</li>
+						</ul>
+					</li>
+					<li>
+						Hostal Parque Natural
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>Admite mascotas</li>
+						</ul>
+					</li>
+				</ol>
+				<br>
+				<h2 id="Salto3">Actividades</h2>
+				<dl>
+					<dt>Skyline</dt>
+					<dd>
+						<p>El Rincon Del Cielo</p>
+						<p>
+							En Rincón del Cielo, un increíble mirador
+							con una panorámica que incluye los picos más altos del Pirineo,
+							contemplaremos su excepcional puesta de sol acompañados de una copa de champagne.
+						</p>
+					</dd>
+					<dt>Cerler 9KM</dt>
+					<dd>
+						<p>
+							El descenso interminable por el que atravesarás algunas de las pistas más
+							emblemáticas de la estación, bosques y caminos serpenteantes…
+							¿preparado para la 9Km?
+						</p>
+					</dd>
+					<dt>Funny Truck</dt>
+					<dd>
+						<p>
+							Una nueva pista en el sector de Basibé llena de obstáculos y módulos
+							interactivos ideada para el disfrute de toda la familia
+						</p>
+						<p>
+							Puentes, xilófonos, túneles… divertidísimos retos pensados para todo
+							tipo de esquiador, desde los más pequeños de la casa hasta los que busquen
+							un momento especial en su jornada de esquí.
+						</p>
+					</dd>
+					<dt>Bordercross</dt>
+					<dd>
+						<p>
+							Otra nueva pista azul en Basibé llena de obstaculos, con peraltes, dubies y
+							saltos para aquellos que tengan a partir de un nivel intermedio de esquí.
+						</p>
+					</dd>
+				</dl>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/LlbbbcatxZQ?si=5VCdrkX_rAnFcRWo"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+
+			</div>
+			<!--Panel de la derecha -->
+			<!--<div class="sidebar" id="sideRight">
+				<strong>Right Sidebar:</strong> Integer velit. Vestibulum nisi nunc,
+				accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus,
+				placerat eget, posuere eget, egestas eget, dui. Pellentesque
+				habitant morbi tristique senectus et netus et malesuada fames ac
+				turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas
+				vel elit.
+			 .sidebar#sideRight -->
+		</div>
+		<!-- #middle-->
+	</div>
+	<div id="footer">
+		<a href="https://www.instagram.com/grupoaramon/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+		<a href="https://twitter.com/GrupoAramon" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+		<a href="https://www.tiktok.com/@grupoaramon" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
+		<a href="https://www.youtube.com/@aramontelevision" target="_blank"><ion-icon
+				name="logo-youtube"></ion-icon></a>
+	</div>
+	<!-- #footer -->
+
+	</div>
+</body>
+
+</html>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+<script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>

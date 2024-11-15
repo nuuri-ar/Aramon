@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aramon - Escuela de Esquí</title>
+	<link rel="stylesheet" href="../style/style.css" />
+	<link rel="stylesheet" href="../style/styles1.css">
+	<link rel="Shortcut icon" href="../images/esqui.png" type="image/x-icon">
+	<!-- Script para los menús -->
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+		</div>
+		<!-- MENU-->
+		<nav id='menu'>
+			<input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+			<ul>
+				<li><a href='../index.html'>Inicio</a></li>
+				<li><a class='dropdown-arrow' href='#'>Información</a>
+					<ul class='sub-menus'>
+						<li><a href='Formigal.html'>Formigal</a></li>
+						<li><a href='Cerler.html'>Cerler</a></li>
+						<li><a href='Javalambre.html'>Javalambre</a></li>
+						<li><a href='Veldelinares.html'>Valdelinares</a></li>
+					</ul>
+				</li>
+				<li><a class='dropdown-arrow' href='#'>Galeria</a>
+					<ul class='sub-menus'>
+						<li><a href='Fotos.html'>Fotos</a></li>
+					</ul>
+				</li>
+				<li><a href='Tarifas.html'>Tarifas</a></li>
+				<li><a class='dropdown-arrow' href="#">Formularios</a>
+					<ul class='sub-menus'>
+						<li><a href='Contacto.html'>Contacto</a></li>
+						<li><a href='Reservas.html'>Reservas</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- Div central -->
+		<div id="middle">
+			<!--Panel izquierda -->
+			<div id="content">
+				<h1 class="Titulo">Formigal</h1>
+				<hr>
+				<ul class="ListaInformacion">
+					<li>
+						<img src="../images/Formigal1.jpg">
+						<a href="#Salto1">Informacion</a>
+					</li>
+					<li>
+						<img src="../images/FormigalAlojamiento.jpg">
+						<a href="#Salto2">Alojamiento</a>
+					</li>
+					<li>
+						<img src="../images/FormigalSqui.jpg">
+						<a href="#Salto3">Actividades</a>
+					</li>
+				</ul>
+				<div class="Mapa">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5857.261077813402!2d-0.37194302424520004!3d42.77501835997185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd584a9a0e3bcdaf%3A0x6896984cf60000b8!2sEdificio%20Sextas%20URB%2C%2022640%20Formigal%2C%20Huesca!3m2!1d42.7751424!2d-0.3715535!5e0!3m2!1ses!2ses!4v1699551788516!5m2!1ses!2ses"
+						width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+
+				<h2 id="Salto1">Informacion</h2>
+				<p>Formigal es el mayor destino de esquí en España y la gran referencia para los amantes de los deportes
+					de invierno.</p>
+
+				<h3>Sector Formigal</h3>
+				<p>Una de las estaciones más animadas del Pirineo, tanto de día como de noche. De ahí que sea el centro
+					de referencia para los amantes del deporte blanco.</p>
+
+				<p>A un paso de la localidad de Sallent de Gállego, Formigal te ofrece 137 kilómetros esquiables
+					distribuidos a lo largo de los cuatro valles que la integran.</p>
+
+				<p>El acceso a la zona de pistas es fácil y cómodo, y cuenta con cuatro áreas de aparcamiento. Si te
+					alojas en Formigal y no quieres coger el coche, que sepas que la estación
+					cuenta con un servicio gratuito de bus que en pocos minutos une el centro de la urbanización con las
+					principales entradas a la estación.</p>
+
+				<br>
+				<h2 id="Salto2">Alojamiento</h2>
+				<p>Estos son 5 de nuestros mejores alojamientos:</p>
+				<ol>
+					<li>
+						Hotel Tierra de Biescas (Biescas)
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>SPA</li>
+						</ul>
+					</li><br>
+					<li>
+						Hotel Mi Casa (Sabiñanigo)
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>Guardaesquís</li>
+						</ul>
+					</li><br>
+					<li>
+						Hotel Oroel (Jaca)
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Garaje</li>
+							<li>Piscina exterior</li>
+						</ul>
+					</li><br>
+				</ol><br>
+				<ol start="4">
+					<li>
+						Hotel del Balneario de Panticosa (Panticosa)
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>Guardaesquís</li>
+						</ul>
+					</li><br>
+					<li>
+						Hotel Snö Aragón Hills (Formigal)
+						<ul id="ListaAlojamiento">
+							<li>Wifi gratuita</li>
+							<li>Restaurante</li>
+							<li>Parking</li>
+							<li>Guardaesquís</li>
+						</ul>
+					</li>
+				</ol>
+				<br>
+				<h2 id="Salto3">Actividades diferentes que el esquí</h2>
+				<dl>
+					<dt>Ski Ratrack </dt>
+					<dd>
+						<p>
+							Imagina esquiar por un paraje espectacular, un terreno casi virgen. <br>
+							La pista “Pipos” es una de las más sorprendentes hasta la que sólo se puede llegar
+							arrastrado por una máquina ratrack.
+						</p>
+					</dd><br>
+					<dt>La Glera</dt>
+					<dd>
+						<p>
+							Disfruta de la cena más exclusiva de Formigal en una pequeña cabaña en medio de las
+							montañas.<br>
+							Una pequeña cabaña situada en un entorno único, a más de 2.000m de altura.
+						</p>
+					</dd><br>
+					<dt>Tobogganing</dt>
+					<dd>
+						<p>
+							La diversión continúa a la luz de la luna:
+						</p>
+						<p>
+							sube en telesilla de Sallent al caer la noche y, después de cenar en la Trattoría Cantal,
+							en pleno corazón de las pistas de esquí… ¡desciende en un trineo clásico de madera por una
+							pista
+							iluminada de 2.5 kilómetros de largo!
+						</p>
+					</dd><br>
+					<dt>Vuelo en Parapente</dt>
+					<dd>
+						<p>
+							Con el vuelo en Parapente biplaza en Panticosa te sentirás, literalmente,
+							como un ave planeando por el cielo. ¡Una actividad con la que vivirás una experiencia
+							única!.
+							Tú volando en medio del cielo…
+						</p>
+					</dd><br>
+				</dl>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/9JiieUKN09U?si=DTp6NIhgOwGVR3Me"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+			</div>
+			<!--Panel de la derecha -->
+			<div class="sidebar" id="sideRight">
+				<!--<strong>Right Sidebar:</strong> Integer velit. Vestibulum nisi nunc,
+				accumsan ut, vehicula sit amet, porta a, mi. Nam nisl tellus,
+				placerat eget, posuere eget, egestas eget, dui. Pellentesque
+				habitant morbi tristique senectus et netus et malesuada fames ac
+				turpis egestas. In elementum urna a eros. Integer iaculis. Maecenas
+				vel elit.
+			 .sidebar#sideRight -->
+			</div>
+			<!-- #middle-->
+		</div>
+		<div id="footer">
+			<a href="https://www.instagram.com/grupoaramon/" target="_blank"><ion-icon
+					name="logo-instagram"></ion-icon></a>
+			<a href="https://twitter.com/GrupoAramon" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+			<a href="https://www.tiktok.com/@grupoaramon" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
+			<a href="https://www.youtube.com/@aramontelevision" target="_blank"><ion-icon
+					name="logo-youtube"></ion-icon></a>
+		</div>
+		<!-- #footer -->
+	</div>
+</body>
+
+</html>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+<script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>

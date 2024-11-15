@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aramon - Escuela de Esquí</title>
+	<link rel="stylesheet" href="style/style.css" />
+	<link rel="stylesheet" href="style/styles1.css">
+	<link rel="Shortcut icon" href="../plantilla/images/esqui.png" type="image/x-icon">
+	<!-- Script para los menús -->
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+		</div>
+		<!-- MENU-->
+		<nav id='menu'>
+			<input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+			<ul>
+				<li><a href='index.html'>Inicio</a></li>
+				<li><a class='dropdown-arrow' href='#'>Información</a>
+					<ul class='sub-menus'>
+						<li><a href='paginas/Formigal.html'>Formigal</a></li>
+						<li><a href='paginas/Cerler.html'>Cerler</a></li>
+						<li><a href='paginas/Javalambre.html'>Javalambre</a></li>
+						<li><a href='paginas/Veldelinares.html'>Valdelinares</a></li>
+					</ul>
+				</li>
+				<li><a class='dropdown-arrow' href='#'>Galeria</a>
+					<ul class='sub-menus'>
+						<li><a href='paginas/Fotos.html'>Fotos</a></li>
+					</ul>
+				</li>
+				<li><a href='paginas/Tarifas.html'>Tarifas</a></li>
+				<li><a class='dropdown-arrow' href="#">Formularios</a>
+					<ul class='sub-menus'>
+						<li><a href='paginas/Contacto.html'>Contacto</a></li>
+						<li><a href='paginas/Reservas.html'>Reservas</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- Div central -->
+		<div id="middle">
+			<!--Panel izquierda -->
+			<div id="content">
+				<div class="Titulo">
+					<h1>Aramon</h1>
+					<img src="images/aramon.png" alt="aramon" class="aramon">
+				</div>
+				<h2>¿Quienes somos?</h2>
+				<p>
+					Aramón es una empresa española que se dedica a la gestión y operación de estaciones de esquí y
+					montaña en el Pirineo aragonés.
+					Aramón es el acrónimo de <mark>"Aragonesa de Montañas"</mark> y se fundó en 2002. La empresa opera
+					varias estaciones de esquí en el norte de España,
+					en la comunidad autónoma de Aragón.
+					Algunas de las estaciones de esquí que gestiona Aramón incluyen:
+				</p>
+				<ul>
+					<li class="ListaInicio">
+						<strong>Formigal-Panticosa:</strong> Esta es una de las estaciones de esquí más grandes de
+						España y se compone de dos áreas de esquí, Formigal y Panticosa,
+						ubicadas en el Pirineo aragonés. Ofrece una amplia variedad de pistas de esquí y actividades
+						relacionadas con el esquí y el snowboard.
+					</li><br>
+					<li class="ListaInicio">
+						<strong>Cerler:</strong> La estación de esquí de Cerler se encuentra en el valle de Benasque,
+						también en el Pirineo aragonés. Es conocida por su belleza natural
+						y por ser un destino popular para los amantes del esquí y el snowboard.
+					</li><br>
+					<li class="ListaInicio">
+						<strong>Javalambre:</strong> Esta estación se encuentra en la Sierra de Javalambre, en la
+						provincia de Teruel, y es conocida por ser un lugar ideal para
+						la práctica del esquí alpino y actividades de montaña.
+					</li><br>
+					<li class="ListaInicio">
+						<strong>Valdelinares:</strong> Valdelinares es otra estación de esquí ubicada en la provincia de
+						Teruel, y es conocida por ser una de las estaciones más antiguas de España.
+					</li><br>
+				</ul>
+
+				<h2>Actividades que realizamos</h2>
+				<ul>
+					<li class="ListaInicio">
+						<em>Esquí y Snowboard:</em> Durante la temporada de invierno, las estaciones de esquí de Aramón
+						ofrecen la posibilidad de practicar esquí alpino,
+						snowboard y otros deportes de invierno. Hay pistas para diferentes niveles de habilidad, desde
+						principiantes hasta expertos, y se brinda la
+						oportunidad de tomar clases y equipos de alquiler.
+					</li><br>
+					<li class="ListaInicio">
+						<em>Senderismo y Montañismo:</em> En verano, las montañas del Pirineo aragonés ofrecen
+						excelentes oportunidades para practicar senderismo y montañismo.
+						Aramón proporciona acceso a rutas de senderismo y ofrece mapas y guías para que los visitantes
+						exploren la belleza natural de la región.
+					</li><br>
+					<li class="ListaInicio">
+						<em>Ciclismo de Montaña:</em> Las estaciones de Aramón también son un destino popular para los
+						amantes del ciclismo de montaña.
+						Los senderos de montaña ofrecen desafíos para ciclistas de todos los niveles, desde
+						principiantes hasta expertos.
+					</li><br>
+					<li class="ListaInicio">
+						<em>Actividades de Aventura:</em> Aramón a menudo colabora con operadores locales para ofrecer
+						actividades de aventura como parapente,
+						escalada en roca, paseos en globo aerostático y otras experiencias emocionantes en la montaña.
+					</li><br>
+					<li class="ListaInicio">
+						<em>Eventos y Competencias:</em> Las estaciones de Aramón suelen albergar eventos y competencias
+						deportivas a lo largo del año,
+						que incluyen carreras de trail running, competencias de esquí y snowboard, y más.
+					</li><br>
+				</ul>
+
+				<h2>Alojamiento</h2>
+				En Aramon ofrecemos alojamiento en algunas de nuestras estaciones de esquí. Ubicados cerca de las pistas
+				para proporcionar una estancia
+				comoda y conveniente durante la visita.
+				<ul>
+					<li class="ListaInicio">
+						Hoteles: Algunas de nuestras estaciones cuentan con hoteles que ofrecen comodidades como
+						habitaciones, restaurantes, servicios de spa
+						y otros servicios para hacer que la estancia sea agradable.
+					</li><br>
+					<li class="ListaInicio">
+						Apartamentos: También podemos proporcionar apartamentos o alquileres vacacionales que son
+						adecuados para familias o grupos más grandes.
+						Estos apartamentos suelen tener cocina, sala de estar y zonas de descanso.
+					</li><br>
+					<li class="ListaInicio">
+						Albergues y refugios de montaña: En determinadas estaciones, puedes encontrar albergues o
+						refugios de montaña que ofrecen un alojamiento
+						más sencillo y económico, ideal para excursionistas y amantes de la montaña.
+					</li><br>
+					<li class="ListaInicio">
+						Casas rurales: En algunas zonas cercanas a las estaciones de esquí, es posible que haya casas
+						rurales disponibles para alquilar,
+						lo que puede proporcionar una experiencia más aislada y tranquila.
+					</li><br>
+				</ul>
+			</div>
+			<!--Panel de la derecha -->
+			<div class="sidebar" id="sideRight">
+				<h3>ATENCIÓN!!!</h3>
+				Las siguientes etsaciones permaneceran cerradas devido a unos desastres naturales:
+
+				<ol type="1" class="ListaSidebar">
+					<li>Cerler</li>
+					<li>Javalambre</li>
+					<li>Valdelinares</li>
+				</ol>
+				Para mas informacion visite nuestra pagina de Ayudas
+				<div class="rating"> <!--Estrellas interactivas para dar valoración-->
+					<input type="radio" name="rating" id="star5" class="star-input" value="5">
+					<label for="star5" class="star-label"></label>
+					<input type="radio" name="rating" id="star4" class="star-input" value="4">
+					<label for="star4" class="star-label"></label>
+					<input type="radio" name="rating" id="star3" class="star-input" value="3">
+					<label for="star3" class="star-label"></label>
+					<input type="radio" name="rating" id="star2" class="star-input" value="2">
+					<label for="star2" class="star-label"></label>
+					<input type="radio" name="rating" id="star1" class="star-input" value="1">
+					<label for="star1" class="star-label"></label>
+				</div>
+
+				<img id="FotoSidebar" src="images/esqui2.png">
+
+				<!-- .sidebar#sideRight -->
+			</div>
+			<!-- #middle-->
+		</div>
+		<div id="footer">
+			<a href="https://www.instagram.com/grupoaramon/" target="_blank"><ion-icon
+					name="logo-instagram"></ion-icon></a>
+			<a href="https://twitter.com/GrupoAramon" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+			<a href="https://www.tiktok.com/@grupoaramon" target="_blank"><ion-icon name="logo-tiktok"></ion-icon></a>
+			<a href="https://www.youtube.com/@aramontelevision" target="_blank"><ion-icon
+					name="logo-youtube"></ion-icon></a>
+		</div>
+		<!-- #footer -->
+
+	</div>
+</body>
+
+</html>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+<script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
